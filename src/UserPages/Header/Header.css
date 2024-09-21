@@ -1,14 +1,15 @@
 
 .container{
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .navbar-brand {
     font-size: 25px !important;;
-    color: #1f76cc; /* Màu sáng cho tên thương hiệu */
+    
     
   }
 .navbar-nav{
-    margin-left: 400px;
-    font-size: 20px ;
+    margin-left: 290px;
+    font-size: 18px ;
+    color: white !important;
 }
