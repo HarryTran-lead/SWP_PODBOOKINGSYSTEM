@@ -3,6 +3,13 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import bannerImage from '../../assets/BannerHomePage.jpg';
 import './HomePage.css';
+
+import GoogleLogo from '../../assets/BrandLogo/GoogleLogo.png';
+import AmazonLogo from '../../assets/BrandLogo/AmazonLogo.png';
+import LogitechLogo from '../../assets/BrandLogo/LogitechLogo.png';
+import SpotifyLogo from '../../assets/BrandLogo/SpotifyLogo.png';
+import SamsungLogo from '../../assets/BrandLogo/SamsungLogo.png';
+import NetflixLogo from '../../assets/BrandLogo/NetflixLogo.png';
 export default function HomePage() {
   return (
     <>
@@ -24,12 +31,12 @@ export default function HomePage() {
         <div className="trusted-companies text-center">
           <p>Trusted by 100+ Companies across the globe!</p>
           <div className="companies-logos">
-            <img src="google.png" alt="Google" />
-            <img src="amazon.png" alt="Amazon" />
-            <img src="logitech.png" alt="Logitech" />
-            <img src="spotify.png" alt="Spotify" />
-            <img src="samsung.png" alt="Samsung" />
-            <img src="netflix.png" alt="Netflix" />
+            <img src={GoogleLogo} alt="Google" />
+            <img src={AmazonLogo} alt="Amazon" />
+            <img src={LogitechLogo} alt="Logitech" />
+            <img src={SpotifyLogo} alt="Spotify" />
+            <img src={SamsungLogo} alt="Samsung" />
+            <img src={NetflixLogo} alt="Netflix" />
           </div>
         </div>
       </div>
