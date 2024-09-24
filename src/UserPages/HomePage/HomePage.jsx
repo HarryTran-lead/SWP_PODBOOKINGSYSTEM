@@ -6,7 +6,7 @@ import './HomePage.css';
 export default function HomePage() {
   return (
     <>
-      <Header />
+      
       <div className="container-fluid p-0">
         <div className="main-banner">
           <img src={bannerImage}  alt="Office Banner" className="banner-image" />
@@ -33,7 +33,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 }
